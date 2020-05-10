@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="./images/logo.png" type="image/png" sizes="128x128" />
+</head>
+
+<body>
+  <!-- <div class="loading-screen">
+    <div class="loading-screen__title">
+      <span class="loading-screen__title-text loading-text-fadeUp">Website</span>
+      <span class="loading-screen__title-text loading-text-fadeUp">Is</span>
+      <span class="loading-screen__title-text loading-text-fadeUp">Cooking</span>
+    </div>
+    <div class="loading-screen__background">
+    </div>
+  </div> -->
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">
+        <img src="./images/logo.png" alt="" width="60" height="60" srcset="">
+      </a>
+      <ul class="navbar__links">
+        <li class="navbar__item"><a href="#home" class="navbar__link active">Home
+
+          </a>
+        </li>
+        <li class="navbar__item"><a href="#work" class="navbar__link">Work
+          </a>
+        </li>
+        <li class="navbar__item"><a href="#about" class="navbar__link">About Us
+          </a>
+        </li>
+        <li class="navbar__item"><a href="#contact" class="navbar__link">Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="break" id="home"></div>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__wrapper--left">
+            <h2 class="hero__title-text">
+              <span class="text-highlight--pink">Developers.
+              </span>
+            </h2>
+            <p class="hero__subtitle-text">
+              We design and build apps & websites with clean UI.
+            </p>
+            <div class="call-to-action-btn-containers">
+              <button class="hero__button" onclick="window.location.href = '#work';">See Our Work</button>
+            </div>
+          </div>
+          <div class="hero__wrapper--right">
+            <h4 class="hero__wrapper--right-title-text">
+              <span class="text-highlight--blue">
+                Things We Work on</span>
+            </h4>
+            <div class="hero__wrapper--right-container">
+              <div class="programming-card">
+                <img src="./images/html.png" alt="HTML">
+                <h5 class="programming-card__title">
+                  HTML
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/css.png" alt="CSS">
+                <h5 class="programming-card__title">
+                  CSS
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/js.png" alt="JS">
+                <h5 class="programming-card__title">
+                  JavaScript
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/bootstrap.png" alt="Bootstrap">
+                <h5 class="programming-card__title">
+                  Bootstrap
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img width="50" src="./images/php.svg" alt="React JS">
+                <h5 class="programming-card__title">
+                  PHP
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/react.png" alt="React JS">
+                <h5 class="programming-card__title">
+                  React JS
+                </h5>
+              </div>
+              <div class="programming-card">
+                <img src="./images/flutter.png" alt="Flutter">
+                <h5 class="programming-card__title">
+                  Flutter
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work-section">
+      <div class="break" id="work"></div>
+      <div class="container">
+        <div class="work__wrapper">
+          <h2 class="section-title"><span class="text-highlight--pink">Our Works</span></h2>
+          <div class="work__wrapper-container">
+
+            <div class="project-card">
+              <img src="./images/screenshot1.png" alt="ss1">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">MLearn</h4>
+                <p class="project-card__body-text">React JS web application to learn web programming languages.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="http://m-learn-app.herokuapp.com/" target="_blank">
+                      View Website
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/mlearn.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/make_my_day.svg" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Make My Day</h4>
+                <p class="project-card__body-text">Flutter Application for managing daily routines.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                      View on store
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/makemyday.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/newsUp.png" style="background-color: #F8F8F8;" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">News Up</h4>
+                <p class="project-card__body-text">Flutter Application for get updates on news.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/gp/product/B08669JDX7">
+                      View on store
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/newsup.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/call_me1.png" style="background-color: #F8F8F8;" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Call Me Up</h4>
+                <p class="project-card__body-text">Flutter Application for get updates on news.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                      View on store
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/callme.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/social_park.png" style="background-color: #F8F8F8;" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Social Park</h4>
+                <p class="project-card__body-text">Social media application developed by flutter.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                      View on store
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/socialpark.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/computer_store.png" style="background-color: #F8F8F8;" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Computer Store</h4>
+                <p class="project-card__body-text">A complete E-Commerce Website developed by PHP.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                      View on store
+                    </a>
+                  </div>
+                  <!-- <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/c.html">
+                      View project
+                    </a>
+                  </div> -->
+                </div>
+
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img src="./images/python.png" style="background-color: #F8F8F8;" alt="ss2">
+              <div class="project-card__body">
+                <h4 class="project-card__title-text">Personal Face and Emotion Recognition</h4>
+                <p class="project-card__body-text">The model will recognize each face and identify their name based on
+                  the trained model. CNN is used for training the dataset.
+                </p>
+                <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="https://www.amazon.com/dp/B0854QNCL8/ref=apps_sf_sta">
+                      View on store
+                    </a>
+                  </div>
+                  <div class="project-card__button">
+                    <a class="circle-btn" href="./pages/video.html">
+                      View project
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="break"></div>
+    </section>
+    <section class="about-section">
+      <div class="break" id="about"></div>
+      <div class="container">
+        <div class="about__wrapper">
+          <h2 class="section-title">
+            <span class="text-highlight--pink">
+              About Us
+            </span>
+          </h2>
+          <div class="about__wrapper-container">
+            <div class="about-card">
+              <img src="./images/logo.png" alt="Profile image">
+              <div class="about-card__body">
+                <h4 class="about-card__title-text">Cook to Code</h4>
+                <p class="about-card__body-text">We create Web and Android application with clean UserInterface. Hit us
+                  on instagram for projects with resonable price. Message us before 2 months with your project topic for
+                  finishing your topic on time. We will give live updates and proper guidance when we start your
+                  project. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="break"></div>
+    </section>
+
+    <section class="contact-section">
+      <div class="break" id="contact"></div>
+      <div class="container">
+        <div class="contact__wrapper">
+          <h2 class="section-title"><span class="text-highlight--green">Contact Us</span></h2>
+          <div class="contact__wrapper-container">
+            <div class="contact-card">
+              <h4 class="contact-card__title-text">Email Address</h4>
+              <p class="contact-card__body-text">cookcode1005@gmail.com</p>
+            </div>
+            <div class="contact-card">
+              <h4 class="contact-card__title-text">Find me at</h4>
+              <div class="social-icon__container">
+                <a href="https://github.com/Cook-code-1005" target="_blank"><img src="./images/github.svg"
+                    alt="github"></a>
+                <a href="https://www.instagram.com/cookcode1005/"><img src="./images/instagram.svg" class="ml-2" alt="instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="break"></div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <h4 class="footer-text">&copy; CookCode 2020</h4>
+        <h4 class="footer-text">Icons by icons8.com</h4>
+      </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript" src="./main.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
